@@ -26,4 +26,4 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 # Curso_angular_canal_hora_de_codar
-Projeto em Angular feito a partir dos tutoriais do professor Matheus Battisti do canal Hora de Codar no youtube.
+Projeto em Angular feito a partir dos tutoriais da professora Loiane Groner do canal Loiane Groner no curso "Curso Angular" de 2017.
