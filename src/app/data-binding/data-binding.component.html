@@ -1,6 +1,5 @@
-<section class="property-biding">
-
-    <!--article>
+<!--section class="property-biding">
+    <article>
         <h3>Interpolation / Interpolação</h3>
         <p>String renderizada com interpolação: {{ url }}</p>
         <p>Resultado de 1 + 1 é: {{ 1 + 1 }}</p>
@@ -12,7 +11,7 @@
         <h3>Property Binding</h3>
         <img src="{{ urlImage }}">
         <img [src]="urlImage">
-    </article-->
+    </article>
 
     <article>
         <h3>Class e Style Binding</h3>
@@ -35,6 +34,34 @@
             <div class="alert" role="alert" [class.alert-danger]="classe.value == 'alert-danger'">Erro</div>
             
             <div class="alert alert-danger" role="alert" [style.display] = "classe.value == 'alert-danger' ? 'block' : 'none'" >Esse texto somente aparece em caso de erro.</div>
+        </div>
+    </article>
+
+</section-->
+
+<section class="event-binding">
+
+    <article>
+        <h3>Event Binding</h3>
+        <div>
+            <button (click)="botaoClicado()" class="btn btn-primary">Me clique!</button>
+
+            <br><br>
+
+            <input type="text" (keyup)="onKeyUp($event)"
+                                (keyup.enter)="salvarValor(campoImput.value)"
+                                (blur)="salvarValor(campoImput.value)"
+                                #campoImput
+                                />
+            <p>Valor atual: {{ valorAtual }}</p>
+            <p>Valor salvo: {{ valorSalvo }}</p>
+
+            <span (mouseover)="onMouseOverOut()"
+                  (mouseout)="onMouseOverOut()"
+                  [class.highlight] = "isMouseOver"
+                  >
+                  Passe o mouse sobre mim</span>
+            
         </div>
     </article>
 
