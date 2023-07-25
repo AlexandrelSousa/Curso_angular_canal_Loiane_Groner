@@ -8,6 +8,8 @@ import { MeuPrimeiroComponent } from './meu-primeiro-programa/meu-primeiro-progr
 import { MeuSegundoComponent } from './meu-segundo/meu-segundo.component';
 import { DataBindingComponent } from './data-binding/data-binding.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FormsModule } from '@angular/forms';
+import { MeuFormModule } from './meu-form/meu-form.module';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BrowserModule,
     AppRoutingModule,
     CursosModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    FormsModule,
+    MeuFormModule
   ],
   providers: [],
   bootstrap: [AppComponent]
