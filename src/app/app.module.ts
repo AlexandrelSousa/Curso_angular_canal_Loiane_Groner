@@ -12,6 +12,7 @@ import { FormsModule } from '@angular/forms';
 import { MeuFormModule } from './meu-form/meu-form.module';
 import { InputPropertieComponent } from './input-propertie/input-propertie.component';
 import { CicloComponent } from './ciclo/ciclo.component';
+import { OutputPropertyComponent } from './output-property/output-property.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { CicloComponent } from './ciclo/ciclo.component';
     DataBindingComponent,
     InputPropertieComponent,
     CicloComponent,
+    OutputPropertyComponent,
   ],
   imports: [
     BrowserModule,
