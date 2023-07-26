@@ -11,6 +11,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
 import { MeuFormModule } from './meu-form/meu-form.module';
 import { InputPropertieComponent } from './input-propertie/input-propertie.component';
+import { CicloComponent } from './ciclo/ciclo.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { InputPropertieComponent } from './input-propertie/input-propertie.compo
     MeuSegundoComponent,
     DataBindingComponent,
     InputPropertieComponent,
+    CicloComponent,
   ],
   imports: [
     BrowserModule,
