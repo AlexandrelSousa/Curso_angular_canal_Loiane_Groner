@@ -13,6 +13,7 @@ import { MeuFormModule } from './meu-form/meu-form.module';
 import { InputPropertieComponent } from './input-propertie/input-propertie.component';
 import { CicloComponent } from './ciclo/ciclo.component';
 import { OutputPropertyComponent } from './output-property/output-property.component';
+import { DiretiraNgifComponent } from './diretira-ngif/diretira-ngif.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { OutputPropertyComponent } from './output-property/output-property.compo
     InputPropertieComponent,
     CicloComponent,
     OutputPropertyComponent,
+    DiretiraNgifComponent,
   ],
   imports: [
     BrowserModule,
